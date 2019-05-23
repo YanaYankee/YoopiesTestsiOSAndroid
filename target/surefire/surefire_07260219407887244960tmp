@@ -1,0 +1,6 @@
+#surefire_0
+#Thu May 23 20:02:53 EEST 2019
+user.dir=/Users/yaninapavlyk/Tests/YoopiesIosAndrTests
+localRepository=/Users/yaninapavlyk/.m2/repository
+basedir=/Users/yaninapavlyk/Tests/YoopiesIosAndrTests
+test=Tests\#testLoginLogoutTest

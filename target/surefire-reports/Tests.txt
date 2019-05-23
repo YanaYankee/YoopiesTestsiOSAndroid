@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: Tests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 60.245 s <<< FAILURE! - in Tests
+testLoginLogoutTest(Tests)  Time elapsed: 60.213 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: Cannot find Parent btn
+ (tried for 30 second(s) with 500 milliseconds interval)
+	at Tests.testLoginLogoutTest(Tests.java:93)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.id: id:I am a parent
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Yaninas-MacBook-Pro.local', ip: '172.28.96.15', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at Tests.testLoginLogoutTest(Tests.java:93)
+
