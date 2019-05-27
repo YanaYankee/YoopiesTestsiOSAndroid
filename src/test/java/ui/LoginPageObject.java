@@ -7,7 +7,8 @@ abstract public class LoginPageObject extends MainPageObject {
     protected static String
             LOGIN_EMAIL_INIT_ELEMENT,
             LOGIN_PASSWORD_INIT_ELEMENT,
-            LOGIN_CONNECT_INIT_ELEMENT;
+            LOGIN_CONNECT_INIT_ELEMENT,
+            DONE_INIT_ELEMENT;
 
 
 
@@ -34,14 +35,14 @@ abstract public class LoginPageObject extends MainPageObject {
     public void initSendKeysToPasswordAction() {
 
             this.waitForElementPresent(
-                    By.id(LOGIN_PASSWORD_INIT_ELEMENT), //"//*[contains(@text, 'Log in')]"
+                    By.xpath(LOGIN_PASSWORD_INIT_ELEMENT), //"//*[contains(@text, 'Log in')]"
                     "Cannot find PASSWORD input after clicking login init element",
                     5,
                     "PASSWORD input is found");
 
 // ********************************* tap PASSWORD (login) input ***********************
             this.waitForElementAndSendKeys(
-                By.id(LOGIN_PASSWORD_INIT_ELEMENT),
+                By.xpath(LOGIN_PASSWORD_INIT_ELEMENT),
                 "Test1234",
                 "Cannot find PASSWORD input field after sending keys email init element",
                 2,
@@ -56,5 +57,12 @@ abstract public class LoginPageObject extends MainPageObject {
                         "CONNECT btn on login screen found");
 
     }
-
+    // ********************************* tap DONE btn **************************
+    public void initDoneLAction() {
+                this.waitForElementAndClick(
+            By.xpath( DONE_INIT_ELEMENT),
+                "Cannot find Done after sending keys to login password element",
+                        2,
+                        "Done btn on login screen found");
+    }
 }

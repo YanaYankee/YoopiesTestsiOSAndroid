@@ -12,13 +12,13 @@
                     SETTING_PAYMENT_ID_INIT_ELEMENT,
                     SETTINGS_ARROW,
                     HELP,
-                    SETTING_CLASS_ID_INIT_ELEMENT;
+                    SETTING_BUTTON_ID_INIT_ELEMENT;
 
             public SettingsPageObject(AppiumDriver driver){
                 super(driver);
             }
             public void swipeUpShit() {
-                swipeUpToElement(By.id(SETTING_CLASS_ID_INIT_ELEMENT),"shit",1,"shit");
+                swipeUpToElement(By.id(SETTING_BUTTON_ID_INIT_ELEMENT),"shit",1,"shit");
             }
 
             public void initPaymentBtnClickAction() {
@@ -60,7 +60,7 @@
             }
 
             public void help() {
-                this.waitForElementPresent(
+                this.waitForElementAndClick(
                         By.id(HELP),
                         "Cannot find Help btn arrow",
                         7,
@@ -69,7 +69,7 @@
 
             public void waitSettingsBtnPresent() {
                 this.waitForElementPresent(
-                        By.xpath( SETTING_CLASS_ID_INIT_ELEMENT),
+                        By.xpath(SETTING_BUTTON_ID_INIT_ELEMENT),
                         "Cannot find Settings btn",
                         5,
                         "Settings btn found");
@@ -77,7 +77,7 @@
 
             public void initSettingsBtnClickAction() {
                 this.waitForElementAndClick(
-                        By.id( SETTING_CLASS_ID_INIT_ELEMENT),
+                        By.id(SETTING_BUTTON_ID_INIT_ELEMENT),
                         "Cannot click Settings btn",
                         12,
                         "Settings btn clicked");

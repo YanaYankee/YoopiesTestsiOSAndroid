@@ -1,3 +1,4 @@
+import lib.Platform;
 import org.junit.Test;
 import ui.*;
 import ui.factories.*;
@@ -96,11 +97,19 @@ protected void setUp() throws Exception{
         LoginPageObject LoginPageObject = LoginPageObjectFactory.get(driver);
         LoginPageObject.initSendKeysToEmailAction();
         LoginPageObject.initSendKeysToPasswordAction();
+                if (Platform.getInstance().isIOS()){
+                    LoginPageObject.initDoneLAction();
+                }
         LoginPageObject.initFinishLoginInProcessAction();
-
         IntroPageObject IntroPageObject = IntroPageObjectFactory.get(driver);
+//        if (Platform.getInstance().isIOS()){
+//            IntroPageObject.initAllowNotificationBtnClickAction();
+//            }
+
         IntroPageObject.initSkipIntroAction();
 
+        DashboardPageObject DashboardPageObject = DashboardPageObjectFactory.get(driver);
+        DashboardPageObject.waitForHelloTitleOnDashboardPresent();
         BottomMenuPageObject BottomMenuPageObject = BottomMenuPageObjectFactory.get(driver);
 
 //        MainPageObject.scrollDown();
@@ -109,21 +118,21 @@ protected void setUp() throws Exception{
         BottomMenuPageObject.waitMoreBtnPresent();
         BottomMenuPageObject.initMoreBtnClickAction();
 
-        SettingsPageObject SettingsPageObject = SettingsPageObjectFactory.get(driver);
-   //     SettingsPageObject.waitForNameFieldPresent();
-  //      SettingsPageObject.help();
-//      SettingsPageObject.initPaymentBtnClickAction();
- //     SettingsPageObject.swipeUpShit();
-        SettingsPageObject.waitForNameFieldPresent();
-        SettingsPageObject.waitForAddressFieldPresent();
-        SettingsPageObject.waitForSimulationIconPresent();
-        MainPageObject.swipeUp(6);
-        SettingsPageObject.initSettingsArrowClickAction();
-
-        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
-
-        LogOutPageObject.initLogoutClickAction();
-
-        LogOutPageObject.initLOGOUTPopupClickAction();
+SettingsPageObject SettingsPageObject = SettingsPageObjectFactory.get(driver);
+//   //     SettingsPageObject.waitForNameFieldPresent();
+  SettingsPageObject.help();
+////      SettingsPageObject.initPaymentBtnClickAction();
+// //     SettingsPageObject.swipeUpShit();
+//        SettingsPageObject.waitForNameFieldPresent();
+//        SettingsPageObject.waitForAddressFieldPresent();
+//        SettingsPageObject.waitForSimulationIconPresent();
+//        MainPageObject.swipeUp(6);
+//        SettingsPageObject.initSettingsArrowClickAction();
+//
+//        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
+//
+//        LogOutPageObject.initLogoutClickAction();
+//
+//        LogOutPageObject.initLOGOUTPopupClickAction();
     }
 }

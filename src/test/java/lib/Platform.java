@@ -3,6 +3,7 @@ package lib;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.remote.IOSMobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.URL;
@@ -42,22 +43,30 @@ public class Platform {
 
     private DesiredCapabilities getAndroidDesiredCapabilities(){
         DesiredCapabilities capabilities = new DesiredCapabilities();
-     //capabilities.setCapability("automationName", "uiautomator2");
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "AndroidTestDevice");
         capabilities.setCapability("platformVersion", "8");
-        // capabilities.setCapability("automationName", "Appium"); Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
+        //capabilities.setCapability("automationName", "Appium"); //Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
         capabilities.setCapability("appPackage", "com.yoopies.babysittingandroid.beta");
         capabilities.setCapability("appActivity", "com.yoopies.loginmodule.activities.splash.SplashActivity");
+        capabilities.setCapability("automationName", "UiAutomator2");
+        capabilities.setCapability("language", "en");
+        capabilities.setCapability("locale", "fr_FR");
         capabilities.setCapability("app", "/Users/yaninapavlyk/Tests/YoopiesIosAndrTests/apks/app-beta-debug.apk");
         return capabilities;
     }
     private DesiredCapabilities getIOSDesiredCapabilities(){
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("platformName", "iOs");
-        capabilities.setCapability("deviceName", "iPhone 8 Plus");
+
+        capabilities.setCapability("platformName", "iOS");
+        capabilities.setCapability("deviceName", "iPhone Xr");
         capabilities.setCapability("platformVersion", "12.2");
+        capabilities.setCapability("autoAcceptAlerts", true);
+        capabilities.setCapability("automationName", "XCUITest");
+        capabilities.setCapability("language", "en");
+        capabilities.setCapability("locale", "fr_FR");
         capabilities.setCapability("app", "/Users/yaninapavlyk/Yoopies_APP/iOS-App-Childcare-Development.app");
+
         return capabilities;
     }
     private boolean isPlatform(String my_platform){

@@ -1,5 +1,7 @@
+ui/android/AndroidDashboardPageObject.class
 CoreTestCase.class
 ui/SettingsButtonPageObject.class
+ui/ios/IOSDashboardPageObject.class
 ui/android/AndroidLogOutPageObject.class
 ui/ios/IOSRegisterBottomOfFirstScreenPageObject.class
 Tests.class
@@ -15,7 +17,9 @@ ui/RegisterSecondScreenPageObject.class
 ui/android/AndroidIntroPageObject.class
 ui/ios/IOSLogOutPageObject.class
 ui/ios/IOSSignInSignUpPageObject.class
+ui/factories/DashboardPageObjectFactory.class
 ui/SignInSignUpPageObject.class
+ui/DashboardPageObject.class
 ui/android/AndroidLoginPageObject.class
 ui/RegisterBottomOfFirstScreenPageObject.class
 ui/android/AndroidSignInSignUpPageObject.class

@@ -11,10 +11,10 @@ public class AndroidSettingsPageObject extends SettingsPageObject
         ADDRESS_FIELD_ELEMENT = "com.yoopies.babysittingandroid.beta:id/postalAddressInput";
                 SIMULATION_ICON = "com.yoopies.babysittingandroid.beta:id/simulationIcon";
         HELP_BUTTON_FIND_ELEMENT = "com.yoopies.babysittingandroid.beta:id/help";
-        SETTINGS_ARROW = "com.yoopies.babysittingandroid.beta:id/paymentArrow";
+        SETTINGS_ARROW = "com.yoopies.babysittingandroid.beta:id/logOutArrow";
         SETTING_PAYMENT_ID_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/payment";
         HELP = "//*[contains(@text, 'Help')]";
-        SETTING_CLASS_ID_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/cardViewSettings";
+        SETTING_BUTTON_ID_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/cardViewSettings";
     }
     public AndroidSettingsPageObject(AppiumDriver driver){
         super(driver);

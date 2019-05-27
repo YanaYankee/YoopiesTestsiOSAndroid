@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
+import java.util.List;
 import java.util.Random;
 
 public class MainPageObject {
@@ -22,13 +23,34 @@ public class MainPageObject {
         this.driver = driver;
     }
 
+    public int getAmountOfElements(By by) {
+        List elements = driver.findElements(by);
+        return elements.size();
+    }
+    public void assertElementPresent(By by, String error_message){
+        int amount_of_elements = getAmountOfElements(by);
+        if (amount_of_elements < 1 ) {
+            String default_message = "An element '" + by.toString() + "' supposed to be present";
+            throw new AssertionError(default_message + " " + error_message);
+        } else if (amount_of_elements > 1 ) {
+            String default_message = "Not more than one element '" + by.toString() + "' supposed to be present";
+            throw new AssertionError(default_message + " " + error_message);
+        }
+    }
 
+    public void assertElementNotPresent(By by, String error_message){
+        int amount_of_elements = getAmountOfElements(by);
+        if (amount_of_elements > 0 ) {
+            String default_message = "An element '" + by.toString() + "' supposed to be not present";
+            throw new AssertionError(default_message + " " + error_message);
+        }
+    }
 
     public WebElement waitForElementPresent(By by, String error_message, long timeoutInSeconds,String found )
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
-//        System.out.println(found);
+
         return  wait.until(
                 ExpectedConditions.presenceOfElementLocated(by)
         );
@@ -37,7 +59,7 @@ public class MainPageObject {
     {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
-//        System.out.println(found);
+
         return  wait.until(
                 ExpectedConditions.elementToBeClickable(by)
         );
@@ -47,8 +69,19 @@ public class MainPageObject {
     public WebElement waitForElementAndClick(By by, String error_message, long timeoutInSeconds,String found)
     {
         WebElement element = waitForElementPresent( by,  error_message,  timeoutInSeconds, found);
-        element.click();
+        int amount_of_elements = getAmountOfElements(by);
+        if (amount_of_elements < 1 ) {
+            String default_message = "An element '" + by.toString() + "' supposed to be present";
+            throw new AssertionError(default_message + " " + error_message);
+        } else if (amount_of_elements > 1 ) {
+            String default_message = "Not more than one element '" + by.toString() + "' supposed to be present";
+            throw new AssertionError(default_message + " " + error_message);
+        } else {
+            System.out.println(found);
+        }
 
+
+        element.click();
         return element;
     }
 
@@ -161,6 +194,14 @@ public void swipeUp(int timeOfSwipeInSecs) {
                 .waitAction(WaitOptions.waitOptions(Duration.ofMillis(300)))
                 .release()
                 .perform();
+
+//        action.press(new PointOption()
+//                .withCoordinates(right_x,middle_y))
+//                .waitAction().moveTo(new PointOption()
+//                .withCoordinates(left_x,middle_y))
+//                .release()
+//                .perform();
+
     }
     public int generateRandomForRegisterData(int number) {
         Random rand = new Random();
