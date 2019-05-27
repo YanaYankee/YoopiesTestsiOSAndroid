@@ -1,17 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: Tests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 160.934 s <<< FAILURE! - in Tests
-testLoginLogoutTest(Tests)  Time elapsed: 160.895 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: 
-Expected condition failed: Cannot find Allow Notifications btn after clicking loging connect init element
- (tried for 20 second(s) with 500 milliseconds interval)
-	at Tests.testLoginLogoutTest(Tests.java:106)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-Cannot locate an element using By.xpath: //XCUIElementTypeAlert[@name='BabySitting Yoopies Would Like to Send You Notifications']/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[3]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[3]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.133 s <<< FAILURE! - in Tests
+testLoginLogoutTest(Tests)  Time elapsed: 4.096 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+It is impossible to create a new session because 'createSession' which takes HttpClient, InputStream and long was not found or it is not accessible
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'Yaninas-MacBook-Pro.local', ip: '172.27.100.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
-Driver info: driver.version: unknown
-	at Tests.testLoginLogoutTest(Tests.java:106)
+Driver info: driver.version: AndroidDriver
+	at Tests.setUp(Tests.java:11)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Tests.setUp(Tests.java:11)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Failed to set language: en and country: fr_FR
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'Yaninas-MacBook-Pro.local', ip: '172.27.100.19', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '1.8.0_201'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Failed to set language: en and country: fr_FR
+    at getResponseForW3CError (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/errors.js:826:9)
+    at asyncHandler (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-base-driver/lib/protocol/protocol.js:447:37)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+	at Tests.setUp(Tests.java:11)
 

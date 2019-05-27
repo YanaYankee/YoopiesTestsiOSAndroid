@@ -61,7 +61,7 @@
 
             public void help() {
                 this.waitForElementAndClick(
-                        By.id(HELP),
+                        By.id(HELP_BUTTON_FIND_ELEMENT),
                         "Cannot find Help btn arrow",
                         7,
                         "Help btn HELP found");

@@ -6,8 +6,7 @@ import ui.BottomMenuPageObject;
 
     public class IOSBottomMenuPageObject  extends BottomMenuPageObject {
         static {
-            MORE_INIT_ELEMENT = "//XCUIElementTypeOther[5]";
-            //"/XCUIElementTypeApplication[@name='BabySitting Yoopies']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeTabBar/
+            MORE_INIT_ELEMENT = "//XCUIElementTypeApplication[@name='BabySitting Yoopies']/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeTabBar/XCUIElementTypeOther[5]";
         }
         public IOSBottomMenuPageObject(AppiumDriver driver){
             super(driver);

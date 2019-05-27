@@ -188,19 +188,19 @@ public void swipeUp(int timeOfSwipeInSecs) {
         int middle_y = (upper_y+lower_y) / 2;
 
         TouchAction action =  new TouchAction(driver);
-        action
-                .press(PointOption.point(right_x, middle_y))
-                .moveTo(PointOption.point(left_x,middle_y))
-                .waitAction(WaitOptions.waitOptions(Duration.ofMillis(300)))
-                .release()
-                .perform();
-
-//        action.press(new PointOption()
-//                .withCoordinates(right_x,middle_y))
-//                .waitAction().moveTo(new PointOption()
-//                .withCoordinates(left_x,middle_y))
+//        action
+//                .press(PointOption.point(right_x, middle_y))
+//                .moveTo(PointOption.point(left_x,middle_y))
+//                .waitAction(WaitOptions.waitOptions(Duration.ofMillis(300)))
 //                .release()
 //                .perform();
+
+        action.press(new PointOption()
+                .withCoordinates(right_x,middle_y))
+                .waitAction().moveTo(new PointOption()
+                .withCoordinates(left_x,middle_y))
+                .release()
+                .perform();
 
     }
     public int generateRandomForRegisterData(int number) {

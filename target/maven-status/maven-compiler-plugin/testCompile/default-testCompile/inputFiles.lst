@@ -15,9 +15,11 @@
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/LoginPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/SettingsPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/factories/CountriesSpinnerPageObjectFactory.java
+/Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/ios/IOSDashboardPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/factories/BottomMenuPageObjectFactory.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/SignInSignUpPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/RegisterBottomOfFirstScreenPageObject.java
+/Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/factories/DashboardPageObjectFactory.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/LogOutPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/android/AndroidLoginPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/factories/SettingsPageObjectFactory.java
@@ -45,5 +47,7 @@
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/ios/IOSSignInSignUpPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/factories/LoginPageObjectFactory.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/ios/IOSRegisterTopOfFirstScreenPageObject.java
+/Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/android/AndroidDashboardPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/factories/RegisterSecondScreenPageObjectFactory.java
+/Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/DashboardPageObject.java
 /Users/yaninapavlyk/Tests/YoopiesIosAndrTests/src/test/java/ui/android/AndroidSettingsPageObject.java

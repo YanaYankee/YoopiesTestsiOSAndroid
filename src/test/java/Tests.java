@@ -62,26 +62,32 @@ protected void setUp() throws Exception{
         IntroPageObject IntroPageObject = IntroPageObjectFactory.get(driver);
         IntroPageObject.initSkipIntroAction();
 
+        DashboardPageObject DashboardPageObject = DashboardPageObjectFactory.get(driver);
+        DashboardPageObject.waitForHelloTitleOnDashboardPresent();
         BottomMenuPageObject BottomMenuPageObject = BottomMenuPageObjectFactory.get(driver);
+
+//        MainPageObject.scrollDown();
+        //      this.backgroundApp(2);
+
         BottomMenuPageObject.waitMoreBtnPresent();
         BottomMenuPageObject.initMoreBtnClickAction();
 
-        MainPageObject.swipeUp(3);
-//        try {
-//            Thread.sleep(10000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-
         SettingsPageObject SettingsPageObject = SettingsPageObjectFactory.get(driver);
-        SettingsPageObject.waitForHelpBtnPresent();
-        SettingsPageObject.initSettingsBtnClickAction();
-
-        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
-
-        LogOutPageObject.initLogoutClickAction();
-
-        LogOutPageObject.initLOGOUTPopupClickAction();
+        //   //     SettingsPageObject.waitForNameFieldPresent();
+        SettingsPageObject.help();
+////      SettingsPageObject.initPaymentBtnClickAction();
+// //     SettingsPageObject.swipeUpShit();
+//        SettingsPageObject.waitForNameFieldPresent();
+//        SettingsPageObject.waitForAddressFieldPresent();
+//        SettingsPageObject.waitForSimulationIconPresent();
+//        MainPageObject.swipeUp(6);
+//        SettingsPageObject.initSettingsArrowClickAction();
+//
+//        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
+//
+//        LogOutPageObject.initLogoutClickAction();
+//
+//        LogOutPageObject.initLOGOUTPopupClickAction();
 
     }
 
@@ -92,7 +98,13 @@ protected void setUp() throws Exception{
     {
         SignInSignUpPageObject SignInSignUpPageObject = SignInSignUpPageObjectFactory.get(driver);
         SignInSignUpPageObject.initSignInSignUpScreen();
-        SignInSignUpPageObject.initLoginScreen();
+
+                if (Platform.getInstance().isIOS())
+                {
+            SignInSignUpPageObject.initLoginScreen();
+            } else {
+                    SignInSignUpPageObject.initLoginScreenById();
+                }
 
         LoginPageObject LoginPageObject = LoginPageObjectFactory.get(driver);
         LoginPageObject.initSendKeysToEmailAction();
@@ -118,21 +130,24 @@ protected void setUp() throws Exception{
         BottomMenuPageObject.waitMoreBtnPresent();
         BottomMenuPageObject.initMoreBtnClickAction();
 
-SettingsPageObject SettingsPageObject = SettingsPageObjectFactory.get(driver);
-//   //     SettingsPageObject.waitForNameFieldPresent();
-  SettingsPageObject.help();
-////      SettingsPageObject.initPaymentBtnClickAction();
-// //     SettingsPageObject.swipeUpShit();
-//        SettingsPageObject.waitForNameFieldPresent();
+        SettingsPageObject SettingsPageObject = SettingsPageObjectFactory.get(driver);
+        //   SettingsPageObject.waitForNameFieldPresent();
+     //   SettingsPageObject.help();
+
+      //  SettingsPageObject.waitForNameFieldPresent();
 //        SettingsPageObject.waitForAddressFieldPresent();
-//        SettingsPageObject.waitForSimulationIconPresent();
-//        MainPageObject.swipeUp(6);
-//        SettingsPageObject.initSettingsArrowClickAction();
-//
-//        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
-//
-//        LogOutPageObject.initLogoutClickAction();
-//
-//        LogOutPageObject.initLOGOUTPopupClickAction();
+        SettingsPageObject.waitForSimulationIconPresent();
+
+        MainPageObject.swipeUp(6);
+        SettingsPageObject.initSettingsBtnClickAction();
+
+        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
+
+        LogOutPageObject.initLogoutClickAction();
+        if (Platform.getInstance().isAndroid()){
+            LogOutPageObject.initLOGOUTPopupClickAction();
+        }
+
+
     }
 }

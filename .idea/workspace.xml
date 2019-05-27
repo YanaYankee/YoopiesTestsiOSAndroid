@@ -2,45 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a934e31-fd1e-43ef-829c-3d1405debe20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apks/app-beta-debug.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apks/app-beta-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/apks/app-beta-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/lib/Platform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lib/Platform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/BottomMenuPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/BottomMenuPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/IntroPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/IntroPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/LoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/LoginPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/MainPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/MainPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/SettingsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/SettingsPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/android/AndroidIntroPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/android/AndroidIntroPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/android/AndroidLoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/android/AndroidLoginPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/android/AndroidSettingsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/android/AndroidSettingsPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/factories/IntroPageObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/factories/IntroPageObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/SignInSignUpPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/SignInSignUpPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/android/AndroidSignInSignUpPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/android/AndroidSignInSignUpPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/ios/IOSIntroPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ios/IOSIntroPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ui/ios/IOSLoginPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ios/IOSLoginPageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui/ios/IOSLogOutPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ios/IOSLogOutPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-Tests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Tests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire3405462633127327755tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefire_07260219407887244960tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire/surefirebooter7309964951048187552.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/lib/Platform.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/lib/Platform.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/BottomMenuPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/BottomMenuPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/IntroPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/IntroPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/LoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/LoginPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/SettingsPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/SettingsPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/android/AndroidIntroPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/android/AndroidIntroPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/android/AndroidLoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/android/AndroidLoginPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/android/AndroidSettingsPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/android/AndroidSettingsPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSBottomMenuPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSBottomMenuPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSIntroPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSIntroPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSLoginPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSLoginPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSSettingsPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSSettingsPageObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSSignInSignUpPageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ui/ios/IOSSignInSignUpPageObject.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="123" column="57" lean-forward="true" selection-start-line="123" selection-start-column="57" selection-end-line="123" selection-end-column="57" />
+            <state relative-caret-position="406">
+              <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,11 +39,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidSettingsPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/lib/Platform.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
-              <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+            <state relative-caret-position="-97">
+              <caret line="50" column="92" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,22 +76,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/factories/BottomMenuPageObjectFactory.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/SignInSignUpPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/MainPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="205" column="58" lean-forward="true" selection-start-line="205" selection-start-column="58" selection-end-line="205" selection-end-column="58" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#4314#4315#0" expanded="true" />
+                <element signature="e#4343#4344#0" expanded="true" />
+                <element signature="e#5590#5591#0" expanded="true" />
+                <element signature="e#5634#5635#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidSignInSignUpPageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="135">
+              <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -128,7 +145,11 @@
       <find>MORE_INIT_ELEMENT</find>
       <find>capabilities</find>
       <find>APPIUM_URL</find>
+      <find>new url</find>
       <find>IOSDriver(new</find>
+      <find>Cannot find Help btn arrow</find>
+      <find>SETTING_BUTTON_ID_INIT_ELEMENT</find>
+      <find>initLoginScreen</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/CountriesSpinnerFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/CountriesSpinnerPageObjectFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/LoginPageObjectFactory.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSLogOutPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/LogOutPageObjectFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/NextBtnPageObjectFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/RegisterBottomOfFirstScreenPageObjectFactory.java" />
@@ -168,20 +188,23 @@
         <option value="$PROJECT_DIR$/src/test/java/ui/factories/IntroPageObjectFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/android/AndroidLoginPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/BottomMenuPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/SettingsPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/LoginPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSLoginPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/android/AndroidIntroPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSIntroPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/IntroPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSDashboardPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/DashboardPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/SettingsPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSLogOutPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/SignInSignUpPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/android/AndroidSignInSignUpPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java" />
         <option value="$PROJECT_DIR$/src/test/java/lib/Platform.java" />
         <option value="$PROJECT_DIR$/src/test/java/ui/MainPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/DashboardPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java" />
-        <option value="$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
       </list>
     </option>
   </component>
@@ -324,8 +347,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Tests.testLoginLogoutTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Tests.testLoginLogoutTest">
+    <configuration name="Tests.testLoginLogoutTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="YoopiesIosAndrTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
@@ -339,9 +362,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.testRegisterAndMySituationSettings" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="YoopiesIosAndrTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="testRegisterAndMySituationSettings" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <envs>
+        <env name="PLATFORM" value="android" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Tests.testLoginLogoutTest" />
+      <item itemvalue="JUnit.Tests.testRegisterAndMySituationSettings" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests.testLoginLogoutTest" />
+        <item itemvalue="JUnit.Tests.testRegisterAndMySituationSettings" />
       </list>
     </recent_temporary>
   </component>
@@ -359,34 +400,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.24 at 17h 51m 46s.xml">
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.27 at 15h 05m 48s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testRegisterAndMySituationSettings - 2019.05.27 at 15h 08m 49s.xml">
+      <configuration name="Tests.testRegisterAndMySituationSettings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 15h 09m 36s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.24 at 17h 57m 16s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 15h 12m 17s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.24 at 18h 01m 17s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 16h 21m 37s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.24 at 18h 04m 05s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 16h 30m 41s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.24 at 18h 06m 37s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 16h 36m 58s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 11h 17m 00s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 16h 38m 50s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 11h 35m 25s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 16h 40m 58s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 12h 00m 39s.xml">
-      <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 12h 06m 12s.xml">
-      <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 13h 14m 20s.xml">
+    <history-entry file="Tests_testLoginLogoutTest - 2019.05.27 at 16h 45m 54s.xml">
       <configuration name="Tests.testLoginLogoutTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -394,7 +435,7 @@
     <frame x="-1106" y="-1057" width="1430" height="1052" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25288185" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25288185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -403,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31458333" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31458333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -422,7 +463,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3442029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25288185" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -431,7 +472,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.18020834" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31458333" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,16 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/factories/SignInSignUpPageObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/NextBtnPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -637,27 +668,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidSignInSignUpPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidDashboardPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="79" selection-start-line="9" selection-start-column="79" selection-end-line="9" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/factories/SettingsPageObjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -684,31 +698,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SignInSignUpPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidBottomMenuPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/LogOutPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="251">
           <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSLogOutPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -723,16 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="18" column="52" lean-forward="true" selection-start-line="18" selection-start-column="52" selection-end-line="18" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidSettingsPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="16" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -774,31 +757,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/MainPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="171" column="29" lean-forward="true" selection-start-line="171" selection-start-column="29" selection-end-line="171" selection-end-column="29" />
-          <folding>
-            <element signature="e#4343#4344#0" expanded="true" />
-            <element signature="e#5634#5635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SettingsPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSDashboardPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -826,16 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ui/DashboardPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -846,20 +794,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/BottomMenuPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="22" selection-end-line="80" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="123" column="57" lean-forward="true" selection-start-line="123" selection-start-column="57" selection-end-line="123" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
@@ -873,17 +811,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSBottomMenuPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/factories/SettingsPageObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="285">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSLogOutPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SettingsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="63" column="56" lean-forward="true" selection-start-line="63" selection-start-column="56" selection-end-line="63" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/BottomMenuPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="73" column="39" lean-forward="true" selection-start-line="73" selection-start-column="39" selection-end-line="73" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidBottomMenuPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/factories/SignInSignUpPageObjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidSignInSignUpPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="76" selection-start-line="10" selection-start-column="76" selection-end-line="10" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSSignInSignUpPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/SignInSignUpPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/lib/Platform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
+        <state relative-caret-position="-97">
+          <caret line="50" column="92" selection-start-line="50" selection-start-column="92" selection-end-line="50" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/MainPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="205" column="58" lean-forward="true" selection-start-line="205" selection-start-column="58" selection-end-line="205" selection-end-column="58" />
+          <folding>
+            <element signature="e#4314#4315#0" expanded="true" />
+            <element signature="e#4343#4344#0" expanded="true" />
+            <element signature="e#5590#5591#0" expanded="true" />
+            <element signature="e#5634#5635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/android/AndroidSettingsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ui/ios/IOSSettingsPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="82" column="36" lean-forward="true" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

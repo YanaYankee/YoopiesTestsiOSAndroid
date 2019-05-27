@@ -46,12 +46,12 @@ public class Platform {
         capabilities.setCapability("platformName", "Android");
         capabilities.setCapability("deviceName", "AndroidTestDevice");
         capabilities.setCapability("platformVersion", "8");
-        //capabilities.setCapability("automationName", "Appium"); //Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
+      // capabilities.setCapability("automationName", "Appium"); //Original error: Could not find a driver for automationName 'Appium' and platformName 'Android'. Please check your desired capabilities.
         capabilities.setCapability("appPackage", "com.yoopies.babysittingandroid.beta");
         capabilities.setCapability("appActivity", "com.yoopies.loginmodule.activities.splash.SplashActivity");
         capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("language", "en");
-        capabilities.setCapability("locale", "fr_FR");
+        capabilities.setCapability("locale", "FR");
         capabilities.setCapability("app", "/Users/yaninapavlyk/Tests/YoopiesIosAndrTests/apks/app-beta-debug.apk");
         return capabilities;
     }
