@@ -64,7 +64,7 @@ public class Platform {
         capabilities.setCapability("autoAcceptAlerts", true);
         capabilities.setCapability("automationName", "XCUITest");
         capabilities.setCapability("language", "en");
-        capabilities.setCapability("locale", "fr_FR");
+        capabilities.setCapability("locale", "FR");
         capabilities.setCapability("app", "/Users/yaninapavlyk/Yoopies_APP/iOS-App-Childcare-Development.app");
 
         return capabilities;

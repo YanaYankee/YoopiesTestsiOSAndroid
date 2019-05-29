@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Tests
+Test set: tests.LoginLogoutTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 207.083 s - in Tests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 192.189 s - in tests.LoginLogoutTests
