@@ -3,7 +3,10 @@ package tests;
 import lib.Platform;
 import lib.ui.*;
 import lib.ui.CoreTestCase;
-import lib.ui.factories.*;
+import lib.ui.factories.start.DashboardPageObjectFactory;
+import lib.ui.factories.start.IntroPageObjectFactory;
+import lib.ui.factories.start.LoginPageObjectFactory;
+import lib.ui.factories.start.SignInSignUpPageObjectFactory;
 import org.junit.Test;
 
 public class IntroTests extends CoreTestCase {

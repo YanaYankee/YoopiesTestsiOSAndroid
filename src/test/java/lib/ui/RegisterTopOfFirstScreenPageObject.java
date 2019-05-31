@@ -27,7 +27,7 @@ abstract public class RegisterTopOfFirstScreenPageObject extends MainPageObject 
                     email_for_new_account,
                     "Cannot find searched emailInput on Create account screen",
                     7,
-                    email_for_new_account + "Keys are sent to emailInput on Create account screen"
+                    email_for_new_account + " Keys are sent to emailInput on Create account screen"
             );
         } else {
             this.waitForElementAndSendKeys(
@@ -35,7 +35,7 @@ abstract public class RegisterTopOfFirstScreenPageObject extends MainPageObject 
                     email_for_new_account,
                     "Cannot find searched emailInput on Create account screen",
                     7,
-                    email_for_new_account + "Keys are sent to emailInput on Create account screen"
+                    email_for_new_account + " Keys are sent to emailInput on Create account screen"
             );
         }
     }
@@ -47,7 +47,7 @@ abstract public class RegisterTopOfFirstScreenPageObject extends MainPageObject 
                     REGISTER_NAME,
                     "Cannot find searched nameInput on Create account screen",
                     7,
-                    REGISTER_NAME + "Keys are sent to nameInput on Create account screen"
+                    REGISTER_NAME + " Keys are sent to nameInput on Create account screen"
             );
 
         } else {
@@ -56,7 +56,7 @@ abstract public class RegisterTopOfFirstScreenPageObject extends MainPageObject 
                     REGISTER_NAME,
                     "Cannot find searched nameInput on Create account screen",
                     7,
-                    REGISTER_NAME + "Keys are sent to nameInput on Create account screen"
+                    REGISTER_NAME + " Keys are sent to nameInput on Create account screen"
             );
         }
     }
@@ -70,7 +70,7 @@ abstract public class RegisterTopOfFirstScreenPageObject extends MainPageObject 
                     REGISTER_NAME,
                     "Cannot find searched lastNameInput on Create account screen",
                     3,
-                    "Keys are sent to lastNameInput on Create account screen"
+                    REGISTER_NAME + " Keys are sent to lastNameInput on Create account screen"
 
             );
 
@@ -80,7 +80,7 @@ abstract public class RegisterTopOfFirstScreenPageObject extends MainPageObject 
                 REGISTER_NAME,
                 "Cannot find searched lastNameInput on Create account screen",
                 3,
-                "Keys are sent to lastNameInput on Create account screen"
+                REGISTER_NAME + " Keys are sent to lastNameInput on Create account screen"
 
         );
     }

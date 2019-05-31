@@ -1,0 +1,6 @@
+#surefire_0
+#Fri May 31 11:11:37 EEST 2019
+user.dir=/Users/yaninapavlyk/Tests/YoopiesIosAndrTests
+localRepository=/Users/yaninapavlyk/.m2/repository
+basedir=/Users/yaninapavlyk/Tests/YoopiesIosAndrTests
+test=SearchTests\#testInitSearchScreenTestByBottomMenuTest

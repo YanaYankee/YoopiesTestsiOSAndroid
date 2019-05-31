@@ -27,7 +27,7 @@ abstract public class IntroPageObject extends MainPageObject {
         this.waitForElementAndClick(
             By.id(SKIP_INIT_ELEMENT),
             "Cannot find Skip btn after clicking loging connect init element",
-            12,
+            18,
         "Skip btn on intro scr found");
         }
     public void initAllowNotificationBtnClickAction() {

@@ -42,7 +42,7 @@ abstract public class SignInSignUpPageObject extends MainPageObject {
         this.waitForElementAndClick(
                 By.id(LOGIN_INIT_ELEMENT_ID), //"//*[contains(@text, 'Log in')]"
                 "Cannot find Login btn after clicking parent init element",
-                5,
+                10,
                 "Login btn on sign up / sign in screen found");
     }
     public void initLoginScreenID() {

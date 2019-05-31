@@ -16,7 +16,7 @@ public class IOSSettingsPageObject extends SettingsPageObject
         SETTING_PAYMENT_ID_INIT_ELEMENT = "Payment method";
         HELP = "//XCUIElementTypeStaticText[@name='Help']";
         SETTING_BUTTON_ID_INIT_ELEMENT = "Settings";
-        SETTINGS_ARROW = "com.yoopies.babysittingandroid.beta:id/logOutArrow"; // NO SUCH ELEMENT IN IOS
+        SETTINGS_ARROW = ""; // NO SUCH ELEMENT IN IOS
     }
     public IOSSettingsPageObject(AppiumDriver driver){
         super(driver);

@@ -50,6 +50,8 @@ public class MainPageObject {
         WebDriverWait wait = new WebDriverWait(driver, timeoutInSeconds);
         wait.withMessage(error_message + "\n");
 
+            System.out.println(found);
+
         return  wait.until(
                 ExpectedConditions.presenceOfElementLocated(by)
         );

@@ -5,7 +5,11 @@ import org.openqa.selenium.By;
 
     abstract public class DashboardPageObject  extends MainPageObject {
         protected static  String
-                HELLO_ELEMENT_ID;
+                HELLO_ELEMENT_ID,
+        START_YOUR_FIRST_SEARCH_BUTTON_ID,
+
+        START_YOUR_FIRST_SEARCH_BUTTON = "Start your first search btn",
+        SCREEN_NAME = "Dashboard screen";
 
         public DashboardPageObject(AppiumDriver driver) {
             super(driver);
@@ -13,9 +17,16 @@ import org.openqa.selenium.By;
         public void waitForHelloTitleOnDashboardPresent() {
             this.waitForElementPresent(
                     By.id(HELLO_ELEMENT_ID),
-                    "Cannot find Hello title on dashboard screen btn arrow",
+                    "Cannot find Hello title on " + SCREEN_NAME,
                     7,
-                    "Help btn id found");
+                    START_YOUR_FIRST_SEARCH_BUTTON +" is found");
+        }
+        public void initStartYourFirstSearch() {
+            this.waitForElementPresent(
+                    By.id(START_YOUR_FIRST_SEARCH_BUTTON_ID),
+                    "Cannot find " + START_YOUR_FIRST_SEARCH_BUTTON + " on " + SCREEN_NAME,
+                    7,
+                    START_YOUR_FIRST_SEARCH_BUTTON +" is found");
         }
     }
 
