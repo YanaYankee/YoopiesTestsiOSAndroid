@@ -7,7 +7,7 @@ import org.openqa.selenium.By;
 abstract public class RegisterSecondScreenPageObject extends MainPageObject {
     public static String
             REGISTER_ADDRESS_INIT_ELEMENT,
-            REGISTER_ADDRESS_STRING,
+            REGISTER_ADDRESS_STRING_TPL,
             NO_SUCH_ADDRESS_INIT_ELEMENT,
             ADDRESS_FROM_SUGGESTED_LIST,
             SELECT_COUNTRY_CODE_ARROW,
@@ -15,6 +15,9 @@ abstract public class RegisterSecondScreenPageObject extends MainPageObject {
             REGISTER_PHONE_NUMBER_STRING,
             REGISTER_BUTTON_INIT_ELEMENT ; //
 
+    private static String getAddressXPathByTitle(String address_string) {
+        return REGISTER_ADDRESS_STRING_TPL.replace("{ADDRESS}", address_string);
+    }
 
     public RegisterSecondScreenPageObject(AppiumDriver driver){
         super(driver);
@@ -30,27 +33,34 @@ abstract public class RegisterSecondScreenPageObject extends MainPageObject {
         );
 
     }
-    public void initRegisterAddressInputSendKeys() {
+    public void initRegisterAddressInputSendKeys(String address_string) {
+        String address = getAddressXPathByTitle(address_string);
         // ********************************* Address input on Create account screen 2 ***********************
         if (Platform.getInstance().isAndroid()) {
             this.waitForElementAndClick(
                     By.id(REGISTER_ADDRESS_INIT_ELEMENT),
-                    "Cannot send keys to addres input",
+                    "Cannot find  address input on Create account screen 2",
                     5,
-                    "Keys are sent to Address input on Create account screen 2"
+                    "Address input is found on Create account screen 2"
             );
             this.waitForElementAndSendKeys(
                     By.id(REGISTER_ADDRESS_INIT_ELEMENT),
-                    REGISTER_ADDRESS_STRING,
-                    "Cannot send keys to addres input",
-                    5,
+                    address,
+                    "Cannot send keys to address input on Create account screen 2",
+                    8,
                     "Keys are sent to Address input on Create account screen 2"
             );
         } else {
+            this.waitForElementAndClick(
+                    By.xpath(REGISTER_ADDRESS_INIT_ELEMENT),
+                    "Cannot find  address input on Create account screen 2",
+                    5,
+                    "Address input is found on Create account screen 2"
+            );
             this.waitForElementAndSendKeys(
                     By.xpath(REGISTER_ADDRESS_INIT_ELEMENT),
-                    REGISTER_ADDRESS_STRING,
-                    "Cannot send keys to address input",
+                    address,
+                    "Cannot send keys to address input on Create account screen 2",
                     5,
                     "Keys are sent to Address input on Create account screen 2"
             );

@@ -8,8 +8,7 @@ public class AndroidSearchMainPageObject extends SearchMainPageObject
 {
     static {
         START_YOUR_FIRST_SEARCH_ID = "com.yoopies.babysittingandroid.beta:id/searchButton";
-        START_YOUR_FIRST_SEARCH_BUTTON_NAME = "Start your first search";
-        ADDRESS_FIELD_TPL = "//*[@resource-id='com.yoopies.babysittingandroid.beta:id/address'][@text='{ADDRESS}']";
+        ADDRESS_FIELD_TPL = "//*[@resource-id='com.yoopies.babysittingandroid.beta:id/address'][@text='{ADDRESS_SEARCH}']";
         TYPE_OF_CARE_FIELD_XPATH = "//*[@resource-id='com.yoopies.babysittingandroid.beta:id/guardType'][@text='Type of care']";
         NEED_FIELD_XPATH = "//*[@resource-id='com.yoopies.babysittingandroid.beta:id/need'][@text='Need']";
         SORTING_BTN_ID = "com.yoopies.babysittingandroid.beta:id/order";

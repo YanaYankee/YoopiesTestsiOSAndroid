@@ -17,6 +17,8 @@ public class CreateAccountTests extends CoreTestCase {
 
     @Test
     public void testRegisterAndLogOut() {
+        String address_string = "22 Rue Ordener, 75018 Paris, France" ;
+
         SignInSignUpPageObject SignInSignUpPageObject = SignInSignUpPageObjectFactory.get(driver); //USE FACTORY!!!!!!
         SignInSignUpPageObject.initSignInSignUpScreen();
         SignInSignUpPageObject.initRegisterScreen();
@@ -44,7 +46,7 @@ public class CreateAccountTests extends CoreTestCase {
 
         RegisterSecondScreenPageObject RegisterSecondScreenPageObject = RegisterSecondScreenPageObjectFactory.get(driver);
         //  RegisterSecondScreenPageObject.waitAddressInputAndClick();
-        RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys();
+        RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys(address_string);
         if (Platform.getInstance().isAndroid()) {
             RegisterSecondScreenPageObject.initRegisterNoSuchAddressClick();
         }
@@ -54,7 +56,7 @@ public class CreateAccountTests extends CoreTestCase {
             CountriesSpinner.initCountriesSpinnerObject();
             CountriesSpinner.SelectCountry();
             CountriesSpinner.AcceptButtonClick();
-            RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys();
+            RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys(address_string);
         }
 
 
@@ -95,11 +97,14 @@ public class CreateAccountTests extends CoreTestCase {
 
     @Test
     public void testRegisterAndMySituationSettings() {
+        String address_string = "22 Rue Ordener, 75018 Paris, France" ;
+
+
         SignInSignUpPageObject SignInSignUpPageObject = SignInSignUpPageObjectFactory.get(driver); //USE FACTORY!!!!!!
         SignInSignUpPageObject.initSignInSignUpScreen();
         SignInSignUpPageObject.initRegisterScreen();
 
-// ********** First form
+        // ********** First form
         RegisterTopOfFirstScreenPageObject RegisterTopOfFirstScreenPageObject = RegisterTopOfFirstScreenPageObjectFactory.get(driver);
         // ********** Name
         RegisterTopOfFirstScreenPageObject.initRegisterNameInputSendKeys();
@@ -121,8 +126,7 @@ public class CreateAccountTests extends CoreTestCase {
 //************************** Second screen **********************************************
 
         RegisterSecondScreenPageObject RegisterSecondScreenPageObject = RegisterSecondScreenPageObjectFactory.get(driver);
-        //  RegisterSecondScreenPageObject.waitAddressInputAndClick();
-        RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys();
+        RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys(address_string);
         if (Platform.getInstance().isAndroid()) {
             RegisterSecondScreenPageObject.initRegisterNoSuchAddressClick();
         }
@@ -132,9 +136,8 @@ public class CreateAccountTests extends CoreTestCase {
             CountriesSpinner.initCountriesSpinnerObject();
             CountriesSpinner.SelectCountry();
             CountriesSpinner.AcceptButtonClick();
-            RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys();
+            RegisterSecondScreenPageObject.initRegisterAddressInputSendKeys(address_string);
         }
-
 
         RegisterSecondScreenPageObject.initRegisterConfirmAddress();
 
@@ -142,7 +145,6 @@ public class CreateAccountTests extends CoreTestCase {
             RegisterSecondScreenPageObject.initRegisterPhoneCodeSelector();
             CountriesSpinner.SelectCountryCode();
         }
-
 
         RegisterSecondScreenPageObject.initRegisterPhoneNumberInputSendKeys();
         RegisterSecondScreenPageObject.RegisterButtonClick();
@@ -157,29 +159,39 @@ public class CreateAccountTests extends CoreTestCase {
         DashboardPageObject DashboardPageObject = DashboardPageObjectFactory.get(driver);
         DashboardPageObject.initStartYourFirstSearch();
 
+//***************** SEARCH TESTS ARE STARTING HERE ***************************************
 
-//SEARCH TESTS ARE STARTING HERE
         SearchMainPageObject SearchMainPageObject = SearchMainPageObjectFactory.get(driver);
+        SearchMainPageObject.waitForStartFirstSearchBtn();
         SearchMainPageObject.initStartSearchBtnClickAction();
+
+        if (Platform.getInstance().isAndroid()) {
+            IntroPageObject.tapToCloseHintsOverlay();
+        }
+
+        SearchMainPageObject.waitForAddFiltersBtnPresent();
+        SearchMainPageObject.waitForSortingBtnPresent();
+        SearchMainPageObject.waitForAddressFieldPresent(address_string);
+        SearchMainPageObject.waitForNeedFieldPresent();
+
+
+
         SearchMainPageObject.waitForTypeOfCareFieldPresent();
         SearchMainPageObject.initTypeOfCareFieldClick();
 
-//MY SITUATION TESTS ARE STARTING HERE
         SimulatorPageObject SimulatorPageObject = SimulatorPageObjectFactory.get(driver);
+        if (Platform.getInstance().isAndroid()) {
+        SimulatorPageObject.initConfigureMySituationPopUp();
+        }
+
+//***************** MY SITUATION TESTS ARE STARTING HERE ***************************************
+
         SimulatorPageObject.initAddChildren36Years();
         SimulatorPageObject.selectInRelationship();
-
         MainPageObject.swipeUp(6);
+        SimulatorPageObject.selectMyIncome1ChildInRel();
+        SimulatorPageObject.initAcceptBtn();
 
-
-
-
-        LogOutPageObject LogOutPageObject = LogOutPageObjectFactory.get(driver);
-
-        LogOutPageObject.initLogoutClickAction();
-        if (Platform.getInstance().isAndroid()) {
-            LogOutPageObject.initLOGOUTPopupClickAction();
-        }
     }
 
 }

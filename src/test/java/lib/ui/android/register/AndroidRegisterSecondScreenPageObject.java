@@ -8,9 +8,9 @@ public class AndroidRegisterSecondScreenPageObject  extends RegisterSecondScreen
 {
     static {
         REGISTER_ADDRESS_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/postalAddressInput";
-        REGISTER_ADDRESS_STRING = "22 Rue Ordener, 75018 Paris, France";
-        NO_SUCH_ADDRESS_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/title";;
-        ADDRESS_FROM_SUGGESTED_LIST = "//*[@resource-id='com.yoopies.babysittingandroid.beta:id/subtitle'][@text='75018, Paris, France']";
+        REGISTER_ADDRESS_STRING_TPL = "{ADDRESS}";
+        NO_SUCH_ADDRESS_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/title";
+        ADDRESS_FROM_SUGGESTED_LIST = "//*[@resource-id='com.yoopies.babysittingandroid.beta:id/subtitle'][contains(@text, '75018')]";
         SELECT_COUNTRY_CODE_ARROW = "com.yoopies.babysittingandroid.beta:id/imageView_arrow";
         REGISTER_PHONE_INIT_ELEMENT = "com.yoopies.babysittingandroid.beta:id/phoneInputCarrier";
         REGISTER_PHONE_NUMBER_STRING = "637333777";

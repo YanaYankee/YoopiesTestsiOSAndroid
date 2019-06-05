@@ -22,6 +22,13 @@ abstract public class IntroPageObject extends MainPageObject {
     public IntroPageObject(AppiumDriver driver) {
         super(driver);
     }
+    public void tapToCloseHintsOverlay() {
+        tap(4);
+        tap(1);
+        tap(1);
+        tap(1);
+        tap(1);
+    }
     public void initSkipIntroAction() {
     // ********************************* tap SKIP btn ************************************
         this.waitForElementAndClick(

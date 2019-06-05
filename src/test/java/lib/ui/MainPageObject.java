@@ -124,6 +124,28 @@ public class MainPageObject {
 
 
 
+    //************************SWIPES******************************
+    public static void tap(int secs) {
+        TouchAction action = new TouchAction(driver);
+        //   TouchAction action = new TouchAction(driver);
+        Dimension size = driver.manage().window().getSize();
+
+        int x = size.width / 2;
+        int y_start = (int) (size.height * 0.2);
+        System.out.println(y_start);
+    //    int y_end = (int) (size.height * 0.2);
+
+        action
+                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(secs)))
+                .tap(PointOption.point(x, y_start))
+        //        .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(timeOfSwipeInSecs)))
+
+//                .release()
+               .perform();
+    }
+
+
+
 //************************SWIPES******************************
 public static void swipeUp(int timeOfSwipeInSecs) {
    TouchAction action = new TouchAction(driver);
